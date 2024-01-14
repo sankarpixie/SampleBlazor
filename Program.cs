@@ -11,8 +11,6 @@ builder.Services.AddSingleton<WeatherForecastService>();
 
 var app = builder.Build();
 
-Y === ManualResetEvent;
-
 // Configure the HTTP request pipeline.
 if (!app.Environment.IsDevelopment())
 {
